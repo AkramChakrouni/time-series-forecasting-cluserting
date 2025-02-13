@@ -1,0 +1,14 @@
+name: eosl
+
+channels:
+  - conda-forge  # Ensures you get the latest stable packages
+  - defaults
+
+dependencies:
+  - python=3.11
+  - yfinance=0.2.52
+  - pandas=2.2.3
+  - matplotlib=3.10.0
+  - pip  # Ensure pip is available
+  - pip:
+      - any-other-pip-package  # Add pip packages here if needed

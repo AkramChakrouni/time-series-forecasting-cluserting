@@ -1,0 +1,1 @@
+# All the stocks in the "stock_list.yaml" file will be downloaded, processed and structed.
