@@ -1,0 +1,67 @@
+# List of all the stock that will be utilized
+tickers:
+  Technology:
+    - AAPL
+    - MSFT
+    - GOOGL
+    - AMZN
+    - META
+    - TSLA
+    - NVDA
+    - INTC
+    - IBM
+    - ORCL
+    - ADBE
+
+  Finance:
+    - JPM
+    - BAC
+    - V
+    - MA
+    - PYP
+    - WFC
+    - GS
+    - AXP
+
+  Consumer_Goods_and_Retail:
+    - KO
+    - PEP
+    - PG
+    - JNJ
+    - UL
+    - NKE
+    - WMT
+    - COST
+    - TGT
+    - MCD
+    - SBUX
+
+  Energy:
+    - XOM
+    - CVX
+    - BP
+    - SHEL
+    - COP
+
+  Healthcare_and_Pharmaceuticals:
+    - PFE
+    - MRNA
+    - LLY
+    - MRK
+    - BMY
+
+  Automotive:
+    - F
+    - GM
+    - TM
+    - RACE
+
+  Entertainment_and_Media:
+    - DIS
+    - NFLX
+    - WBD
+
+  Telecommunications:
+    - T
+    - VZ
+    - TMUS
