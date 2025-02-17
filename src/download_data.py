@@ -14,7 +14,7 @@ def fetch_ts(ticker, interval="1h", period="730d"):
         data = stock.history(period=period, interval=interval)
 
         if data.empty:
-            logging.warning(f"⚠️ Ticker {ticker} not found or has no data, and will not be included.")
+            logging.warning(f"❌ Ticker {ticker} not found or has no data, and will not be included.")
             return None
 
         # Reset index to get Date as a column
@@ -38,9 +38,9 @@ def fetch_ts(ticker, interval="1h", period="730d"):
         return None
 
 
-def saving_ts(data, ticker, path="./data/raw"):
+def saving_ts_raw(data, ticker, path="./data/raw"):
     try:
-        os.makedirs(Path("./data/raw"), exist_ok=True)
+        os.makedirs(Path(path), exist_ok=True)
         file_path = os.path.join(path, f"{ticker}.csv")
 
         data.to_csv(file_path, index=False)
@@ -74,7 +74,7 @@ if __name__ == "__main__":
                 failed_tickers.append(ticker)  # Add to failed list
                 continue  # Skip saving step for failed tickers
 
-            saving_ts(data, ticker)
+            saving_ts_raw(data, ticker)
 
         logging.info("✅ Downloading the data successfully completed.")
 
