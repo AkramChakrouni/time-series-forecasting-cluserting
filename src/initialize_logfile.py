@@ -9,6 +9,7 @@ def initialize_logging(script_name):
 
     logging.basicConfig(
         filename=log_file,
+        filemode='w',
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s"
     )

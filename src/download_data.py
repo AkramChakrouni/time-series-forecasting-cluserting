@@ -41,9 +41,9 @@ def fetch_ts(ticker, interval="1h", period="730d"):
 def saving_ts_raw(data, ticker, path="./data/raw"):
     try:
         os.makedirs(Path(path), exist_ok=True)
-        file_path = os.path.join(path, f"{ticker}.csv")
+        file_path = os.path.join(path, f"{ticker}.parquet")
 
-        data.to_csv(file_path, index=False)
+        data.to_parquet(file_path, index=False)
         logging.info(f"✅ Data saved for {ticker} at {file_path}.")
 
     except Exception as e:

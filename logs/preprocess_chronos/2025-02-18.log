@@ -1,0 +1,200 @@
+2025-02-18 13:09:05,567 - INFO - Logging setup complete.
+2025-02-18 13:09:05,567 - INFO - Script: preprocess_chronos started.
+2025-02-18 13:09:05,567 - INFO - Starting data preprocessing.
+2025-02-18 13:09:05,582 - INFO - ✅ The data of SHEL has no missing values.
+2025-02-18 13:09:05,583 - INFO - ✅ Data for SHEL normalized successfully.
+2025-02-18 13:09:05,586 - INFO - ✅ The data of SHEL successfully converted to Chronos format.
+2025-02-18 13:09:05,589 - INFO - ✅ Chronos data saved for SHEL at ./data/chronos/SHEL.parquet.
+2025-02-18 13:09:05,591 - INFO - ✅ The data of TGT has no missing values.
+2025-02-18 13:09:05,592 - INFO - ✅ Data for TGT normalized successfully.
+2025-02-18 13:09:05,594 - INFO - ✅ The data of TGT successfully converted to Chronos format.
+2025-02-18 13:09:05,597 - INFO - ✅ Chronos data saved for TGT at ./data/chronos/TGT.parquet.
+2025-02-18 13:09:05,598 - INFO - ✅ The data of AMZN has no missing values.
+2025-02-18 13:09:05,599 - INFO - ✅ Data for AMZN normalized successfully.
+2025-02-18 13:09:05,601 - INFO - ✅ The data of AMZN successfully converted to Chronos format.
+2025-02-18 13:09:05,604 - INFO - ✅ Chronos data saved for AMZN at ./data/chronos/AMZN.parquet.
+2025-02-18 13:09:05,605 - INFO - ✅ The data of KO has no missing values.
+2025-02-18 13:09:05,606 - INFO - ✅ Data for KO normalized successfully.
+2025-02-18 13:09:05,608 - INFO - ✅ The data of KO successfully converted to Chronos format.
+2025-02-18 13:09:05,610 - INFO - ✅ Chronos data saved for KO at ./data/chronos/KO.parquet.
+2025-02-18 13:09:05,612 - INFO - ✅ The data of BMY has no missing values.
+2025-02-18 13:09:05,612 - INFO - ✅ Data for BMY normalized successfully.
+2025-02-18 13:09:05,615 - INFO - ✅ The data of BMY successfully converted to Chronos format.
+2025-02-18 13:09:05,617 - INFO - ✅ Chronos data saved for BMY at ./data/chronos/BMY.parquet.
+2025-02-18 13:09:05,618 - INFO - ✅ The data of NVDA has no missing values.
+2025-02-18 13:09:05,619 - INFO - ✅ Data for NVDA normalized successfully.
+2025-02-18 13:09:05,622 - INFO - ✅ The data of NVDA successfully converted to Chronos format.
+2025-02-18 13:09:05,624 - INFO - ✅ Chronos data saved for NVDA at ./data/chronos/NVDA.parquet.
+2025-02-18 13:09:05,625 - INFO - ✅ The data of XOM has no missing values.
+2025-02-18 13:09:05,626 - INFO - ✅ Data for XOM normalized successfully.
+2025-02-18 13:09:05,628 - INFO - ✅ The data of XOM successfully converted to Chronos format.
+2025-02-18 13:09:05,630 - INFO - ✅ Chronos data saved for XOM at ./data/chronos/XOM.parquet.
+2025-02-18 13:09:05,632 - INFO - ✅ The data of T has no missing values.
+2025-02-18 13:09:05,632 - INFO - ✅ Data for T normalized successfully.
+2025-02-18 13:09:05,635 - INFO - ✅ The data of T successfully converted to Chronos format.
+2025-02-18 13:09:05,637 - INFO - ✅ Chronos data saved for T at ./data/chronos/T.parquet.
+2025-02-18 13:09:05,638 - INFO - ✅ The data of GM has no missing values.
+2025-02-18 13:09:05,639 - INFO - ✅ Data for GM normalized successfully.
+2025-02-18 13:09:05,641 - INFO - ✅ The data of GM successfully converted to Chronos format.
+2025-02-18 13:09:05,644 - INFO - ✅ Chronos data saved for GM at ./data/chronos/GM.parquet.
+2025-02-18 13:09:05,645 - INFO - ✅ The data of AAPL has no missing values.
+2025-02-18 13:09:05,646 - INFO - ✅ Data for AAPL normalized successfully.
+2025-02-18 13:09:05,648 - INFO - ✅ The data of AAPL successfully converted to Chronos format.
+2025-02-18 13:09:05,650 - INFO - ✅ Chronos data saved for AAPL at ./data/chronos/AAPL.parquet.
+2025-02-18 13:09:05,651 - INFO - ✅ The data of TMUS has no missing values.
+2025-02-18 13:09:05,652 - INFO - ✅ Data for TMUS normalized successfully.
+2025-02-18 13:09:05,654 - INFO - ✅ The data of TMUS successfully converted to Chronos format.
+2025-02-18 13:09:05,656 - INFO - ✅ Chronos data saved for TMUS at ./data/chronos/TMUS.parquet.
+2025-02-18 13:09:05,658 - INFO - ✅ The data of NKE has no missing values.
+2025-02-18 13:09:05,658 - INFO - ✅ Data for NKE normalized successfully.
+2025-02-18 13:09:05,661 - INFO - ✅ The data of NKE successfully converted to Chronos format.
+2025-02-18 13:09:05,663 - INFO - ✅ Chronos data saved for NKE at ./data/chronos/NKE.parquet.
+2025-02-18 13:09:05,665 - INFO - ✅ The data of MRK has no missing values.
+2025-02-18 13:09:05,665 - INFO - ✅ Data for MRK normalized successfully.
+2025-02-18 13:09:05,668 - INFO - ✅ The data of MRK successfully converted to Chronos format.
+2025-02-18 13:09:05,670 - INFO - ✅ Chronos data saved for MRK at ./data/chronos/MRK.parquet.
+2025-02-18 13:09:05,671 - INFO - ✅ The data of META has no missing values.
+2025-02-18 13:09:05,672 - INFO - ✅ Data for META normalized successfully.
+2025-02-18 13:09:05,674 - INFO - ✅ The data of META successfully converted to Chronos format.
+2025-02-18 13:09:05,676 - INFO - ✅ Chronos data saved for META at ./data/chronos/META.parquet.
+2025-02-18 13:09:05,678 - INFO - ✅ The data of JPM has no missing values.
+2025-02-18 13:09:05,679 - INFO - ✅ Data for JPM normalized successfully.
+2025-02-18 13:09:05,681 - INFO - ✅ The data of JPM successfully converted to Chronos format.
+2025-02-18 13:09:05,683 - INFO - ✅ Chronos data saved for JPM at ./data/chronos/JPM.parquet.
+2025-02-18 13:09:05,685 - INFO - ✅ The data of MRNA has no missing values.
+2025-02-18 13:09:05,686 - INFO - ✅ Data for MRNA normalized successfully.
+2025-02-18 13:09:05,688 - INFO - ✅ The data of MRNA successfully converted to Chronos format.
+2025-02-18 13:09:05,690 - INFO - ✅ Chronos data saved for MRNA at ./data/chronos/MRNA.parquet.
+2025-02-18 13:09:05,692 - INFO - ✅ The data of TM has no missing values.
+2025-02-18 13:09:05,692 - INFO - ✅ Data for TM normalized successfully.
+2025-02-18 13:09:05,715 - INFO - ✅ The data of TM successfully converted to Chronos format.
+2025-02-18 13:09:05,717 - INFO - ✅ Chronos data saved for TM at ./data/chronos/TM.parquet.
+2025-02-18 13:09:05,719 - INFO - ✅ The data of RACE has no missing values.
+2025-02-18 13:09:05,720 - INFO - ✅ Data for RACE normalized successfully.
+2025-02-18 13:09:05,722 - INFO - ✅ The data of RACE successfully converted to Chronos format.
+2025-02-18 13:09:05,724 - INFO - ✅ Chronos data saved for RACE at ./data/chronos/RACE.parquet.
+2025-02-18 13:09:05,726 - INFO - ✅ The data of UL has no missing values.
+2025-02-18 13:09:05,727 - INFO - ✅ Data for UL normalized successfully.
+2025-02-18 13:09:05,729 - INFO - ✅ The data of UL successfully converted to Chronos format.
+2025-02-18 13:09:05,731 - INFO - ✅ Chronos data saved for UL at ./data/chronos/UL.parquet.
+2025-02-18 13:09:05,732 - INFO - ✅ The data of PFE has no missing values.
+2025-02-18 13:09:05,733 - INFO - ✅ Data for PFE normalized successfully.
+2025-02-18 13:09:05,736 - INFO - ✅ The data of PFE successfully converted to Chronos format.
+2025-02-18 13:09:05,738 - INFO - ✅ Chronos data saved for PFE at ./data/chronos/PFE.parquet.
+2025-02-18 13:09:05,740 - INFO - ✅ The data of GS has no missing values.
+2025-02-18 13:09:05,740 - INFO - ✅ Data for GS normalized successfully.
+2025-02-18 13:09:05,743 - INFO - ✅ The data of GS successfully converted to Chronos format.
+2025-02-18 13:09:05,745 - INFO - ✅ Chronos data saved for GS at ./data/chronos/GS.parquet.
+2025-02-18 13:09:05,747 - INFO - ✅ The data of MCD has no missing values.
+2025-02-18 13:09:05,748 - INFO - ✅ Data for MCD normalized successfully.
+2025-02-18 13:09:05,750 - INFO - ✅ The data of MCD successfully converted to Chronos format.
+2025-02-18 13:09:05,752 - INFO - ✅ Chronos data saved for MCD at ./data/chronos/MCD.parquet.
+2025-02-18 13:09:05,754 - INFO - ✅ The data of V has no missing values.
+2025-02-18 13:09:05,755 - INFO - ✅ Data for V normalized successfully.
+2025-02-18 13:09:05,757 - INFO - ✅ The data of V successfully converted to Chronos format.
+2025-02-18 13:09:05,759 - INFO - ✅ Chronos data saved for V at ./data/chronos/V.parquet.
+2025-02-18 13:09:05,761 - INFO - ✅ The data of F has no missing values.
+2025-02-18 13:09:05,762 - INFO - ✅ Data for F normalized successfully.
+2025-02-18 13:09:05,765 - INFO - ✅ The data of F successfully converted to Chronos format.
+2025-02-18 13:09:05,767 - INFO - ✅ Chronos data saved for F at ./data/chronos/F.parquet.
+2025-02-18 13:09:05,769 - INFO - ✅ The data of VZ has no missing values.
+2025-02-18 13:09:05,769 - INFO - ✅ Data for VZ normalized successfully.
+2025-02-18 13:09:05,772 - INFO - ✅ The data of VZ successfully converted to Chronos format.
+2025-02-18 13:09:05,774 - INFO - ✅ Chronos data saved for VZ at ./data/chronos/VZ.parquet.
+2025-02-18 13:09:05,775 - INFO - ✅ The data of CVX has no missing values.
+2025-02-18 13:09:05,776 - INFO - ✅ Data for CVX normalized successfully.
+2025-02-18 13:09:05,778 - INFO - ✅ The data of CVX successfully converted to Chronos format.
+2025-02-18 13:09:05,781 - INFO - ✅ Chronos data saved for CVX at ./data/chronos/CVX.parquet.
+2025-02-18 13:09:05,782 - INFO - ✅ The data of GOOGL has no missing values.
+2025-02-18 13:09:05,783 - INFO - ✅ Data for GOOGL normalized successfully.
+2025-02-18 13:09:05,785 - INFO - ✅ The data of GOOGL successfully converted to Chronos format.
+2025-02-18 13:09:05,787 - INFO - ✅ Chronos data saved for GOOGL at ./data/chronos/GOOGL.parquet.
+2025-02-18 13:09:05,788 - INFO - ✅ The data of ADBE has no missing values.
+2025-02-18 13:09:05,789 - INFO - ✅ Data for ADBE normalized successfully.
+2025-02-18 13:09:05,791 - INFO - ✅ The data of ADBE successfully converted to Chronos format.
+2025-02-18 13:09:05,793 - INFO - ✅ Chronos data saved for ADBE at ./data/chronos/ADBE.parquet.
+2025-02-18 13:09:05,795 - INFO - ✅ The data of WFC has no missing values.
+2025-02-18 13:09:05,796 - INFO - ✅ Data for WFC normalized successfully.
+2025-02-18 13:09:05,798 - INFO - ✅ The data of WFC successfully converted to Chronos format.
+2025-02-18 13:09:05,800 - INFO - ✅ Chronos data saved for WFC at ./data/chronos/WFC.parquet.
+2025-02-18 13:09:05,802 - INFO - ✅ The data of NFLX has no missing values.
+2025-02-18 13:09:05,803 - INFO - ✅ Data for NFLX normalized successfully.
+2025-02-18 13:09:05,805 - INFO - ✅ The data of NFLX successfully converted to Chronos format.
+2025-02-18 13:09:05,807 - INFO - ✅ Chronos data saved for NFLX at ./data/chronos/NFLX.parquet.
+2025-02-18 13:09:05,809 - INFO - ✅ The data of MSFT has no missing values.
+2025-02-18 13:09:05,809 - INFO - ✅ Data for MSFT normalized successfully.
+2025-02-18 13:09:05,812 - INFO - ✅ The data of MSFT successfully converted to Chronos format.
+2025-02-18 13:09:05,814 - INFO - ✅ Chronos data saved for MSFT at ./data/chronos/MSFT.parquet.
+2025-02-18 13:09:05,815 - INFO - ✅ The data of DIS has no missing values.
+2025-02-18 13:09:05,816 - INFO - ✅ Data for DIS normalized successfully.
+2025-02-18 13:09:05,818 - INFO - ✅ The data of DIS successfully converted to Chronos format.
+2025-02-18 13:09:05,820 - INFO - ✅ Chronos data saved for DIS at ./data/chronos/DIS.parquet.
+2025-02-18 13:09:05,822 - INFO - ✅ The data of ORCL has no missing values.
+2025-02-18 13:09:05,823 - INFO - ✅ Data for ORCL normalized successfully.
+2025-02-18 13:09:05,825 - INFO - ✅ The data of ORCL successfully converted to Chronos format.
+2025-02-18 13:09:05,827 - INFO - ✅ Chronos data saved for ORCL at ./data/chronos/ORCL.parquet.
+2025-02-18 13:09:05,828 - INFO - ✅ The data of SBUX has no missing values.
+2025-02-18 13:09:05,829 - INFO - ✅ Data for SBUX normalized successfully.
+2025-02-18 13:09:05,831 - INFO - ✅ The data of SBUX successfully converted to Chronos format.
+2025-02-18 13:09:05,834 - INFO - ✅ Chronos data saved for SBUX at ./data/chronos/SBUX.parquet.
+2025-02-18 13:09:05,836 - INFO - ✅ The data of IBM has no missing values.
+2025-02-18 13:09:05,837 - INFO - ✅ Data for IBM normalized successfully.
+2025-02-18 13:09:05,839 - INFO - ✅ The data of IBM successfully converted to Chronos format.
+2025-02-18 13:09:05,841 - INFO - ✅ Chronos data saved for IBM at ./data/chronos/IBM.parquet.
+2025-02-18 13:09:05,843 - INFO - ✅ The data of BAC has no missing values.
+2025-02-18 13:09:05,843 - INFO - ✅ Data for BAC normalized successfully.
+2025-02-18 13:09:05,846 - INFO - ✅ The data of BAC successfully converted to Chronos format.
+2025-02-18 13:09:05,848 - INFO - ✅ Chronos data saved for BAC at ./data/chronos/BAC.parquet.
+2025-02-18 13:09:05,849 - INFO - ✅ The data of PG has no missing values.
+2025-02-18 13:09:05,850 - INFO - ✅ Data for PG normalized successfully.
+2025-02-18 13:09:05,852 - INFO - ✅ The data of PG successfully converted to Chronos format.
+2025-02-18 13:09:05,854 - INFO - ✅ Chronos data saved for PG at ./data/chronos/PG.parquet.
+2025-02-18 13:09:05,855 - INFO - ✅ The data of TSLA has no missing values.
+2025-02-18 13:09:05,856 - INFO - ✅ Data for TSLA normalized successfully.
+2025-02-18 13:09:05,859 - INFO - ✅ The data of TSLA successfully converted to Chronos format.
+2025-02-18 13:09:05,861 - INFO - ✅ Chronos data saved for TSLA at ./data/chronos/TSLA.parquet.
+2025-02-18 13:09:05,862 - INFO - ✅ The data of LLY has no missing values.
+2025-02-18 13:09:05,863 - INFO - ✅ Data for LLY normalized successfully.
+2025-02-18 13:09:05,865 - INFO - ✅ The data of LLY successfully converted to Chronos format.
+2025-02-18 13:09:05,868 - INFO - ✅ Chronos data saved for LLY at ./data/chronos/LLY.parquet.
+2025-02-18 13:09:05,869 - INFO - ✅ The data of WMT has no missing values.
+2025-02-18 13:09:05,870 - INFO - ✅ Data for WMT normalized successfully.
+2025-02-18 13:09:05,872 - INFO - ✅ The data of WMT successfully converted to Chronos format.
+2025-02-18 13:09:05,874 - INFO - ✅ Chronos data saved for WMT at ./data/chronos/WMT.parquet.
+2025-02-18 13:09:05,876 - INFO - ✅ The data of PEP has no missing values.
+2025-02-18 13:09:05,876 - INFO - ✅ Data for PEP normalized successfully.
+2025-02-18 13:09:05,898 - INFO - ✅ The data of PEP successfully converted to Chronos format.
+2025-02-18 13:09:05,901 - INFO - ✅ Chronos data saved for PEP at ./data/chronos/PEP.parquet.
+2025-02-18 13:09:05,903 - INFO - ✅ The data of COST has no missing values.
+2025-02-18 13:09:05,904 - INFO - ✅ Data for COST normalized successfully.
+2025-02-18 13:09:05,906 - INFO - ✅ The data of COST successfully converted to Chronos format.
+2025-02-18 13:09:05,909 - INFO - ✅ Chronos data saved for COST at ./data/chronos/COST.parquet.
+2025-02-18 13:09:05,910 - INFO - ✅ The data of JNJ has no missing values.
+2025-02-18 13:09:05,911 - INFO - ✅ Data for JNJ normalized successfully.
+2025-02-18 13:09:05,913 - INFO - ✅ The data of JNJ successfully converted to Chronos format.
+2025-02-18 13:09:05,915 - INFO - ✅ Chronos data saved for JNJ at ./data/chronos/JNJ.parquet.
+2025-02-18 13:09:05,916 - INFO - ✅ The data of WBD has no missing values.
+2025-02-18 13:09:05,917 - INFO - ✅ Data for WBD normalized successfully.
+2025-02-18 13:09:05,919 - INFO - ✅ The data of WBD successfully converted to Chronos format.
+2025-02-18 13:09:05,921 - INFO - ✅ Chronos data saved for WBD at ./data/chronos/WBD.parquet.
+2025-02-18 13:09:05,923 - INFO - ✅ The data of MA has no missing values.
+2025-02-18 13:09:05,924 - INFO - ✅ Data for MA normalized successfully.
+2025-02-18 13:09:05,926 - INFO - ✅ The data of MA successfully converted to Chronos format.
+2025-02-18 13:09:05,928 - INFO - ✅ Chronos data saved for MA at ./data/chronos/MA.parquet.
+2025-02-18 13:09:05,929 - INFO - ✅ The data of BP has no missing values.
+2025-02-18 13:09:05,930 - INFO - ✅ Data for BP normalized successfully.
+2025-02-18 13:09:05,932 - INFO - ✅ The data of BP successfully converted to Chronos format.
+2025-02-18 13:09:05,934 - INFO - ✅ Chronos data saved for BP at ./data/chronos/BP.parquet.
+2025-02-18 13:09:05,936 - INFO - ✅ The data of COP has no missing values.
+2025-02-18 13:09:05,936 - INFO - ✅ Data for COP normalized successfully.
+2025-02-18 13:09:05,939 - INFO - ✅ The data of COP successfully converted to Chronos format.
+2025-02-18 13:09:05,941 - INFO - ✅ Chronos data saved for COP at ./data/chronos/COP.parquet.
+2025-02-18 13:09:05,942 - INFO - ✅ The data of INTC has no missing values.
+2025-02-18 13:09:05,943 - INFO - ✅ Data for INTC normalized successfully.
+2025-02-18 13:09:05,945 - INFO - ✅ The data of INTC successfully converted to Chronos format.
+2025-02-18 13:09:05,947 - INFO - ✅ Chronos data saved for INTC at ./data/chronos/INTC.parquet.
+2025-02-18 13:09:05,948 - INFO - ✅ The data of AXP has no missing values.
+2025-02-18 13:09:05,949 - INFO - ✅ Data for AXP normalized successfully.
+2025-02-18 13:09:05,952 - INFO - ✅ The data of AXP successfully converted to Chronos format.
+2025-02-18 13:09:05,954 - INFO - ✅ Chronos data saved for AXP at ./data/chronos/AXP.parquet.
+2025-02-18 13:09:05,954 - INFO - ✅ Saving the chronos compatible data successfully completed.
