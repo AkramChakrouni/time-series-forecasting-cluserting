@@ -18,6 +18,7 @@ dependencies:
   - autogluon-tabular=1.2              
   - autogluon-timeseries=1.2 
   - pyyaml=6.0.2 
+  - fastdtw=0.3.4
   - pip  # Ensure pip is available
   - pip:
       - any-other-pip-package  # Add pip packages here if needed
