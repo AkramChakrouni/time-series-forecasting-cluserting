@@ -1,0 +1,28 @@
+2025-02-21 11:22:05,994 - INFO - Logging setup complete.
+2025-02-21 11:22:05,994 - INFO - Script: download_data.py started.
+2025-02-21 11:22:05,994 - INFO - Downloading started.
+2025-02-21 11:22:07,561 - ERROR - ❌ An unexpected error occurred while fetching AAPL: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:07,846 - ERROR - ❌ An unexpected error occurred while fetching MSFT: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:08,411 - ERROR - ❌ An unexpected error occurred while fetching GOOGL: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:09,012 - ERROR - ❌ An unexpected error occurred while fetching AMZN: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:09,886 - ERROR - ❌ An unexpected error occurred while fetching META: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:10,545 - ERROR - ❌ An unexpected error occurred while fetching TSLA: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:11,131 - ERROR - ❌ An unexpected error occurred while fetching NVDA: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:11,668 - ERROR - ❌ An unexpected error occurred while fetching INTC: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:12,260 - ERROR - ❌ An unexpected error occurred while fetching IBM: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:12,845 - ERROR - ❌ An unexpected error occurred while fetching ORCL: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:13,388 - ERROR - ❌ An unexpected error occurred while fetching ADBE: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:14,113 - ERROR - ❌ An unexpected error occurred while fetching JPM: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:14,922 - ERROR - ❌ An unexpected error occurred while fetching BAC: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:15,462 - ERROR - ❌ An unexpected error occurred while fetching V: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:16,060 - ERROR - ❌ An unexpected error occurred while fetching MA: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:16,673 - ERROR - ❌ An unexpected error occurred while fetching PYP: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:17,267 - ERROR - ❌ An unexpected error occurred while fetching WFC: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:18,180 - ERROR - ❌ An unexpected error occurred while fetching GS: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:18,754 - ERROR - ❌ An unexpected error occurred while fetching AXP: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:19,461 - ERROR - ❌ An unexpected error occurred while fetching KO: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:20,488 - ERROR - ❌ An unexpected error occurred while fetching PEP: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:21,482 - ERROR - ❌ An unexpected error occurred while fetching PG: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:22,253 - ERROR - ❌ An unexpected error occurred while fetching JNJ: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:22,833 - ERROR - ❌ An unexpected error occurred while fetching UL: Too Many Requests. Rate limited. Try after a while.
+2025-02-21 11:22:23,484 - ERROR - ❌ An unexpected error occurred while fetching NKE: Too Many Requests. Rate limited. Try after a while.

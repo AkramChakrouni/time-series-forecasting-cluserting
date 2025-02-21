@@ -92,7 +92,7 @@ def update_stock_data(ticker, data_dir):
             data.to_parquet(file_path)
             logging.info(f"Saved new data for {ticker} with {len(data)} rows.")
         else:
-            logging.warning(f"No data fetched for {ticker}.")
+            logging.warning(f"❌ No data fetched for {ticker}.")
 
 
 def remove_stocks_not_in_list(valid_stocks, data_dir):
@@ -107,23 +107,19 @@ def remove_stocks_not_in_list(valid_stocks, data_dir):
                 os.remove(file)
                 logging.info(f"Removed data file for {ticker} (no longer in YAML list).")
             except Exception as e:
-                logging.error(f"Error removing file {file}: {e}")
+                logging.error(f"❌ Error removing file {file}: {e}")
 
 def main():
-    # Ensure the data directory exists
     os.makedirs(DATA_DIR, exist_ok=True)
     
-    # Load the list of stocks from the YAML configuration
     stocks = load_stocks_from_yaml(YAML_FILE)
     
-    # Update data for each stock in the YAML file
     for ticker in stocks:
         update_stock_data(ticker, DATA_DIR)
     
-    # Remove data files for stocks that are no longer in the YAML file
     remove_stocks_not_in_list(stocks, DATA_DIR)
     
-    logging.info("Data update completed successfully.")
+    logging.info("✅ Data update completed successfully.")
 
 if __name__ == "__main__":
     main()

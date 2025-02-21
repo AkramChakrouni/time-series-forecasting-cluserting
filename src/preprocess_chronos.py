@@ -8,6 +8,10 @@ from autogluon.timeseries import TimeSeriesDataFrame
 
 from initialize_logfile import initialize_logging
 
+YAML_FILE = "./configuration/tickers.yaml"          
+CHRONOS_DATA_DIR = "./data/chronos"   
+RAW_DATA_DIR = "./data/raw"         
+
 def check_for_missing_values(data, ticker):
     try: 
         missing_values = data.isnull().sum() 
@@ -23,7 +27,6 @@ def check_for_missing_values(data, ticker):
     except ValueError as e:
         logging.error(f"❌ An error occurred while checking missing values for {ticker}: {e}", exc_info=True)
         return False
-
 
 def normalize_data(data, ticker):
     try:
@@ -44,7 +47,6 @@ def normalize_data(data, ticker):
         logging.error(f"❌  Normalization failed for {ticker}: {e}", exc_info=True)
         return None
 
-
 def convert_to_chronos_format(data, ticker):
     try:
         if "item_id" not in data.columns:
@@ -64,8 +66,7 @@ def convert_to_chronos_format(data, ticker):
         logging.error(f"❌ An error occurred when converting the data for {ticker} to Chronos format: {e}", exc_info=True)
         return None
 
-
-def saving_ts_chronos(data, ticker, path="./data/chronos"):
+def saving_ts_chronos(data, ticker, path):
     try:
         os.makedirs(Path(path), exist_ok=True)
         file_path = os.path.join(path, f"{ticker}.parquet")
@@ -76,14 +77,14 @@ def saving_ts_chronos(data, ticker, path="./data/chronos"):
     except Exception as e:
         logging.error(f"❌ Saving Chronos data for {ticker} was unsuccessful. Error: {e}")
 
-if __name__ == "__main__":
+def main():
     script_name = os.path.splitext(os.path.basename(sys.argv[0] if "__file__" not in globals() else __file__))[0]
     initialize_logging(script_name)
-    logging.info(f"Script: {script_name} started.")
+    logging.info(f"Script: {script_name}.py started.")
     logging.info("Starting data preprocessing.")
 
-    os.makedirs(Path("./data/chronos"), exist_ok=True)
-    directory_raw_data = Path("./data/raw")
+    os.makedirs(Path(CHRONOS_DATA_DIR), exist_ok=True)
+    directory_raw_data = Path(RAW_DATA_DIR)
 
     if not directory_raw_data.exists():
         logging.error(f"❌ {directory_raw_data} directory does not exist.")
@@ -94,17 +95,20 @@ if __name__ == "__main__":
         raise Exception(f"{directory_raw_data} is empty.")
 
     for file_path in directory_raw_data.glob("*.parquet"):
-        if file_path.name == ".DS_Store":  # Skip the system file
+        if file_path.name == ".DS_Store":  # Skip system files
             continue
 
-        data = pd.read_parquet(file_path) 
+        data = pd.read_parquet(file_path)
         ticker = file_path.stem
 
-        if(check_for_missing_values(data, ticker)):
+        if check_for_missing_values(data, ticker):
             data_norm = normalize_data(data, ticker)
             data_chronos = convert_to_chronos_format(data_norm, ticker)
-            saving_ts_chronos(data_chronos, ticker, path="./data/chronos")
+            saving_ts_chronos(data_chronos, ticker, path=CHRONOS_DATA_DIR)
         else:
             logging.warning(f"❌ The data of {ticker} has missing values.")
 
     logging.info("✅ Saving the chronos compatible data successfully completed.")
+
+if __name__ == "__main__":
+    main()

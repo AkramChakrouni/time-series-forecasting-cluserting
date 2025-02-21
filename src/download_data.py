@@ -8,7 +8,15 @@ import sys
 
 from initialize_logfile import initialize_logging
 
-def fetch_ts(ticker, interval="1h", period="730d"):
+# PARAMETERS FOR YFINANCE
+INTERVAL = "1h"
+PERIODE = "730d"
+RELEVANT_COLUMNS = ["Datetime", "Open", "High", "Low", "Close", "Volume"]
+
+YAML_FILE = "./configuration/tickers.yaml"             
+RAW_DATA_DIR = "./data/raw"  
+
+def fetch_ts(ticker, interval=INTERVAL, period=PERIODE):
     try:
         stock = yf.Ticker(ticker)
         data = stock.history(period=period, interval=interval)
@@ -21,7 +29,7 @@ def fetch_ts(ticker, interval="1h", period="730d"):
         data.reset_index(inplace=True)
 
         # Select relevant columns (the other columns are zero)
-        data = data[["Datetime", "Open", "High", "Low", "Close", "Volume"]]
+        data = data[RELEVANT_COLUMNS]
         data.rename(columns={"Datetime": "Date"}, inplace=True)
 
         # Removing time-zone offset
@@ -37,8 +45,7 @@ def fetch_ts(ticker, interval="1h", period="730d"):
         logging.error(f"❌ An unexpected error occurred while fetching {ticker}: {e}")
         return None
 
-
-def saving_ts_raw(data, ticker, path="./data/raw"):
+def saving_ts_raw(data, ticker, path=RAW_DATA_DIR):
     try:
         os.makedirs(Path(path), exist_ok=True)
         file_path = os.path.join(path, f"{ticker}.parquet")
@@ -49,18 +56,18 @@ def saving_ts_raw(data, ticker, path="./data/raw"):
     except Exception as e:
         logging.error(f"❌ Saving data for {ticker} was unsuccessful. Error: {e}")
 
-
-if __name__ == "__main__":
+def main():
     script_name = os.path.splitext(os.path.basename(sys.argv[0] if "__file__" not in globals() else __file__))[0]
     initialize_logging(script_name)
-    logging.info(f"Script: {script_name} started.")
+    logging.info(f"Script: {script_name}.py started.")
     logging.info("Downloading started.")
-    os.makedirs(Path("./data/raw"), exist_ok=True)
+
+    os.makedirs(Path(RAW_DATA_DIR), exist_ok=True)
 
     failed_tickers = []
 
     try:
-        with open("./configuration/tickers.yaml", "r") as file:
+        with open(YAML_FILE, "r") as file:
             yaml_data = yaml.safe_load(file)
 
         all_tickers = []
@@ -69,10 +76,9 @@ if __name__ == "__main__":
 
         for ticker in all_tickers:
             data = fetch_ts(ticker)
-
             if data is None:
-                failed_tickers.append(ticker)  # Add to failed list
-                continue  # Skip saving step for failed tickers
+                failed_tickers.append(ticker)
+                continue  # Skip saving for failed tickers
 
             saving_ts_raw(data, ticker)
 
@@ -83,3 +89,7 @@ if __name__ == "__main__":
 
     except Exception as e:
         logging.error(f"❌ Downloading the dataset was unsuccessful. Error: {e}")
+
+if __name__ == "__main__":
+    main()
+
