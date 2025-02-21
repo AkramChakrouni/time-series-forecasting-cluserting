@@ -7,6 +7,7 @@ import sys
 from autogluon.timeseries import TimeSeriesDataFrame
 
 from initialize_logfile import initialize_logging
+import preprocess_chronos
 
 YAML_FILE = "./configuration/tickers.yaml"          
 CHRONOS_DATA_DIR = "./data/chronos"   
