@@ -11,11 +11,10 @@ import time
 from initialize_logfile import initialize_logging
 import preprocess_chronos
 
-# PARAMETERS
 YAML_FILE = "./configuration/tickers.yaml"
 RAW_DATA_DIR = "./data/raw"
 INTERVAL = "1h"
-# Compute default start date as 730 days ago
+
 DEFAULT_START_DATE = (datetime.today() - timedelta(days=730)).strftime("%Y-%m-%d")
 RELEVANT_COLUMNS = ["Datetime", "Open", "High", "Low", "Close", "Volume"]
 
