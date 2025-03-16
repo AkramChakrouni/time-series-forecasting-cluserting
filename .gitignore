@@ -1,7 +1,5 @@
 .venv/
 
-data/*
+data/
 
 clusters/*
-
-*.parquet
