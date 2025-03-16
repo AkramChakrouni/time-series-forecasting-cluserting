@@ -13,10 +13,10 @@ import preprocess_chronos
 
 YAML_FILE = "./configuration/tickers.yaml"
 RAW_DATA_DIR = "./data/raw"
-INTERVAL = "1h"
+INTERVAL = "1wk"
 
 DEFAULT_START_DATE = (datetime.today() - timedelta(days=730)).strftime("%Y-%m-%d")
-RELEVANT_COLUMNS = ["Datetime", "Open", "High", "Low", "Close", "Volume"]
+RELEVANT_COLUMNS = ["Date", "Open", "High", "Low", "Close", "Volume"]
 
 # Attempt to import YFRateLimitError for handling rate limiting
 try:
