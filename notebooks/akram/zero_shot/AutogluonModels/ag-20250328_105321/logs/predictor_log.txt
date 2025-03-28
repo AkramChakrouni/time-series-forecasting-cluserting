@@ -1,0 +1,48 @@
+Beginning AutoGluon training...
+AutoGluon will save models to '/Users/akramchakrouni/Projects/time-series-forecasting-cluserting/notebooks/akram/AutogluonModels/ag-20250328_105321'
+=================== System Info ===================
+AutoGluon Version:  1.2
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:24 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T6030
+CPU Count:          11
+GPU Count:          0
+Memory Avail:       7.05 GB / 18.00 GB (39.2%)
+Disk Space Avail:   383.95 GB / 460.43 GB (83.4%)
+===================================================
+Setting presets to: bolt_small
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': {'model_path': 'bolt_small'}},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 48,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': True,
+ 'target': 'target',
+ 'verbosity': 2}
+
+Inferred time series frequency: '30min'
+Provided train_data has 172800 rows, 5 time series. Median time series length is 34560 (min=34560, max=34560). 
+
+Provided data contains following columns:
+	target: 'target'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-03-28 11:53:25
+Models that will be trained: ['Chronos[bolt_small]']
+Training timeseries model Chronos[bolt_small]. 
+	8.08    s     = Training runtime
+Training complete. Models trained: ['Chronos[bolt_small]']
+Total runtime: 8.08 s
+Best model: Chronos[bolt_small]
+Model not specified in predict, will default to the model with the best validation score: Chronos[bolt_small]
