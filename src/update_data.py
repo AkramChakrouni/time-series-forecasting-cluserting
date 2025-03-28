@@ -1,3 +1,7 @@
+"""
+    Updates the data for when e.g. some tickers are removed from the configuration file.
+"""
+
 import yfinance as yf
 import pandas as pd
 import os
@@ -16,7 +20,7 @@ RAW_DATA_DIR = "./data/raw"
 INTERVAL = "1wk"
 
 DEFAULT_START_DATE = (datetime.today() - timedelta(days=730)).strftime("%Y-%m-%d")
-RELEVANT_COLUMNS = ["Date", "Open", "High", "Low", "Close", "Volume"]
+RELEVANT_COLUMNS = ["Date", "Close", "Volume"]
 
 # Attempt to import YFRateLimitError for handling rate limiting
 try:

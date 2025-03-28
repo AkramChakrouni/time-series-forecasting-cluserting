@@ -1,0 +1,67 @@
+Beginning AutoGluon training... Time limit = 60s
+AutoGluon will save models to '/Users/akramchakrouni/Projects/time-series-forecasting-cluserting/notebooks/akram/fine_tune/AutogluonModels/ag-20250328_134917'
+=================== System Info ===================
+AutoGluon Version:  1.2
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:24 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T6030
+CPU Count:          11
+GPU Count:          0
+Memory Avail:       7.27 GB / 18.00 GB (40.4%)
+Disk Space Avail:   383.46 GB / 460.43 GB (83.3%)
+===================================================
+
+Fitting with arguments:
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': 'ZeroShot'},
+                                  'model_path': 'bolt_small'},
+                                 {'ag_args': {'name_suffix': 'WithRegressor'},
+                                  'covariate_regressor': 'CAT',
+                                  'model_path': 'bolt_small',
+                                  'target_scaler': 'standard'}]},
+ 'known_covariates_names': ['scaled_price',
+                            'promotion_email',
+                            'promotion_homepage'],
+ 'num_val_windows': 1,
+ 'prediction_length': 8,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'unit_sales',
+ 'time_limit': 60,
+ 'verbosity': 2}
+
+Inferred time series frequency: 'W-MON'
+Provided train_data has 7337 rows (NaN fraction=6.6%), 319 time series. Median time series length is 23 (min=23, max=23). 
+
+Provided data contains following columns:
+	target: 'unit_sales'
+	known_covariates:
+		categorical:        []
+		continuous (float): ['scaled_price', 'promotion_email', 'promotion_homepage']
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-03-28 14:49:18
+Models that will be trained: ['ChronosZeroShot[bolt_small]', 'ChronosWithRegressor[bolt_small]']
+Training timeseries model ChronosZeroShot[bolt_small]. Training for up to 29.6s of the 59.1s of remaining time.
+	-0.4523       = Validation score (-WQL)
+	1.62    s     = Training runtime
+	0.92    s     = Validation (prediction) runtime
+Training timeseries model ChronosWithRegressor[bolt_small]. Training for up to 56.6s of the 56.6s of remaining time.
+	-0.3580       = Validation score (-WQL)
+	1.38    s     = Training runtime
+	0.75    s     = Validation (prediction) runtime
+Training complete. Models trained: ['ChronosZeroShot[bolt_small]', 'ChronosWithRegressor[bolt_small]']
+Total runtime: 4.68 s
+Best model: ChronosWithRegressor[bolt_small]
+Best model score: -0.3580
+Additional data provided, testing on additional data. Resulting leaderboard will be sorted according to test score (`score_test`).

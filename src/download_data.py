@@ -1,3 +1,7 @@
+"""
+    Initial download of the data from yFinance.
+"""
+
 import yfinance as yf
 import pandas as pd
 import os
@@ -11,7 +15,7 @@ from initialize_logfile import initialize_logging
 # PARAMETERS FOR YFINANCE
 INTERVAL = "1wk"
 PERIODE = "730d"
-RELEVANT_COLUMNS = ["Date", "Open", "High", "Low", "Close", "Volume"]
+RELEVANT_COLUMNS = ["Date", "Close", "Volume"]
 
 YAML_FILE = "./configuration/tickers.yaml"             
 RAW_DATA_DIR = "./data/raw"  
