@@ -1,0 +1,105 @@
+2025-03-28 16:53:58,264 - INFO - Logging setup complete.
+2025-03-28 16:53:58,264 - INFO - Script: download_data.py started.
+2025-03-28 16:53:58,264 - INFO - Downloading started.
+2025-03-28 16:53:58,557 - INFO - ✅ Successfully extracted data for AAPL.
+2025-03-28 16:53:58,568 - INFO - ✅ Data saved for AAPL at ./data/raw/AAPL.parquet.
+2025-03-28 16:53:58,745 - INFO - ✅ Successfully extracted data for MSFT.
+2025-03-28 16:53:58,746 - INFO - ✅ Data saved for MSFT at ./data/raw/MSFT.parquet.
+2025-03-28 16:53:58,813 - INFO - ✅ Successfully extracted data for GOOGL.
+2025-03-28 16:53:58,814 - INFO - ✅ Data saved for GOOGL at ./data/raw/GOOGL.parquet.
+2025-03-28 16:53:58,901 - INFO - ✅ Successfully extracted data for AMZN.
+2025-03-28 16:53:58,902 - INFO - ✅ Data saved for AMZN at ./data/raw/AMZN.parquet.
+2025-03-28 16:53:58,975 - INFO - ✅ Successfully extracted data for META.
+2025-03-28 16:53:58,976 - INFO - ✅ Data saved for META at ./data/raw/META.parquet.
+2025-03-28 16:53:59,042 - INFO - ✅ Successfully extracted data for TSLA.
+2025-03-28 16:53:59,043 - INFO - ✅ Data saved for TSLA at ./data/raw/TSLA.parquet.
+2025-03-28 16:53:59,199 - INFO - ✅ Successfully extracted data for NVDA.
+2025-03-28 16:53:59,200 - INFO - ✅ Data saved for NVDA at ./data/raw/NVDA.parquet.
+2025-03-28 16:53:59,317 - INFO - ✅ Successfully extracted data for INTC.
+2025-03-28 16:53:59,318 - INFO - ✅ Data saved for INTC at ./data/raw/INTC.parquet.
+2025-03-28 16:53:59,447 - INFO - ✅ Successfully extracted data for IBM.
+2025-03-28 16:53:59,448 - INFO - ✅ Data saved for IBM at ./data/raw/IBM.parquet.
+2025-03-28 16:53:59,550 - INFO - ✅ Successfully extracted data for ORCL.
+2025-03-28 16:53:59,551 - INFO - ✅ Data saved for ORCL at ./data/raw/ORCL.parquet.
+2025-03-28 16:53:59,716 - INFO - ✅ Successfully extracted data for ADBE.
+2025-03-28 16:53:59,717 - INFO - ✅ Data saved for ADBE at ./data/raw/ADBE.parquet.
+2025-03-28 16:53:59,849 - INFO - ✅ Successfully extracted data for JPM.
+2025-03-28 16:53:59,851 - INFO - ✅ Data saved for JPM at ./data/raw/JPM.parquet.
+2025-03-28 16:53:59,973 - INFO - ✅ Successfully extracted data for BAC.
+2025-03-28 16:53:59,974 - INFO - ✅ Data saved for BAC at ./data/raw/BAC.parquet.
+2025-03-28 16:54:00,060 - INFO - ✅ Successfully extracted data for V.
+2025-03-28 16:54:00,061 - INFO - ✅ Data saved for V at ./data/raw/V.parquet.
+2025-03-28 16:54:00,157 - INFO - ✅ Successfully extracted data for MA.
+2025-03-28 16:54:00,159 - INFO - ✅ Data saved for MA at ./data/raw/MA.parquet.
+2025-03-28 16:54:00,277 - ERROR - $PYP: possibly delisted; no price data found  (period=730d)
+2025-03-28 16:54:00,278 - WARNING - ❌ Ticker PYP not found or has no data, and will not be included.
+2025-03-28 16:54:00,415 - INFO - ✅ Successfully extracted data for WFC.
+2025-03-28 16:54:00,417 - INFO - ✅ Data saved for WFC at ./data/raw/WFC.parquet.
+2025-03-28 16:54:00,522 - INFO - ✅ Successfully extracted data for GS.
+2025-03-28 16:54:00,523 - INFO - ✅ Data saved for GS at ./data/raw/GS.parquet.
+2025-03-28 16:54:00,772 - INFO - ✅ Successfully extracted data for AXP.
+2025-03-28 16:54:00,774 - INFO - ✅ Data saved for AXP at ./data/raw/AXP.parquet.
+2025-03-28 16:54:00,939 - INFO - ✅ Successfully extracted data for KO.
+2025-03-28 16:54:00,941 - INFO - ✅ Data saved for KO at ./data/raw/KO.parquet.
+2025-03-28 16:54:01,073 - INFO - ✅ Successfully extracted data for PEP.
+2025-03-28 16:54:01,074 - INFO - ✅ Data saved for PEP at ./data/raw/PEP.parquet.
+2025-03-28 16:54:01,295 - INFO - ✅ Successfully extracted data for PG.
+2025-03-28 16:54:01,296 - INFO - ✅ Data saved for PG at ./data/raw/PG.parquet.
+2025-03-28 16:54:01,572 - INFO - ✅ Successfully extracted data for JNJ.
+2025-03-28 16:54:01,574 - INFO - ✅ Data saved for JNJ at ./data/raw/JNJ.parquet.
+2025-03-28 16:54:01,821 - INFO - ✅ Successfully extracted data for UL.
+2025-03-28 16:54:01,824 - INFO - ✅ Data saved for UL at ./data/raw/UL.parquet.
+2025-03-28 16:54:01,966 - INFO - ✅ Successfully extracted data for NKE.
+2025-03-28 16:54:01,968 - INFO - ✅ Data saved for NKE at ./data/raw/NKE.parquet.
+2025-03-28 16:54:02,121 - INFO - ✅ Successfully extracted data for WMT.
+2025-03-28 16:54:02,123 - INFO - ✅ Data saved for WMT at ./data/raw/WMT.parquet.
+2025-03-28 16:54:02,247 - INFO - ✅ Successfully extracted data for COST.
+2025-03-28 16:54:02,248 - INFO - ✅ Data saved for COST at ./data/raw/COST.parquet.
+2025-03-28 16:54:02,476 - INFO - ✅ Successfully extracted data for TGT.
+2025-03-28 16:54:02,478 - INFO - ✅ Data saved for TGT at ./data/raw/TGT.parquet.
+2025-03-28 16:54:02,634 - INFO - ✅ Successfully extracted data for MCD.
+2025-03-28 16:54:02,636 - INFO - ✅ Data saved for MCD at ./data/raw/MCD.parquet.
+2025-03-28 16:54:02,734 - INFO - ✅ Successfully extracted data for SBUX.
+2025-03-28 16:54:02,735 - INFO - ✅ Data saved for SBUX at ./data/raw/SBUX.parquet.
+2025-03-28 16:54:02,917 - INFO - ✅ Successfully extracted data for XOM.
+2025-03-28 16:54:02,919 - INFO - ✅ Data saved for XOM at ./data/raw/XOM.parquet.
+2025-03-28 16:54:03,059 - INFO - ✅ Successfully extracted data for CVX.
+2025-03-28 16:54:03,061 - INFO - ✅ Data saved for CVX at ./data/raw/CVX.parquet.
+2025-03-28 16:54:03,219 - INFO - ✅ Successfully extracted data for BP.
+2025-03-28 16:54:03,220 - INFO - ✅ Data saved for BP at ./data/raw/BP.parquet.
+2025-03-28 16:54:03,388 - INFO - ✅ Successfully extracted data for SHEL.
+2025-03-28 16:54:03,389 - INFO - ✅ Data saved for SHEL at ./data/raw/SHEL.parquet.
+2025-03-28 16:54:03,507 - INFO - ✅ Successfully extracted data for COP.
+2025-03-28 16:54:03,509 - INFO - ✅ Data saved for COP at ./data/raw/COP.parquet.
+2025-03-28 16:54:03,697 - INFO - ✅ Successfully extracted data for PFE.
+2025-03-28 16:54:03,699 - INFO - ✅ Data saved for PFE at ./data/raw/PFE.parquet.
+2025-03-28 16:54:03,776 - INFO - ✅ Successfully extracted data for MRNA.
+2025-03-28 16:54:03,777 - INFO - ✅ Data saved for MRNA at ./data/raw/MRNA.parquet.
+2025-03-28 16:54:03,908 - INFO - ✅ Successfully extracted data for LLY.
+2025-03-28 16:54:03,909 - INFO - ✅ Data saved for LLY at ./data/raw/LLY.parquet.
+2025-03-28 16:54:04,057 - INFO - ✅ Successfully extracted data for MRK.
+2025-03-28 16:54:04,059 - INFO - ✅ Data saved for MRK at ./data/raw/MRK.parquet.
+2025-03-28 16:54:04,200 - INFO - ✅ Successfully extracted data for BMY.
+2025-03-28 16:54:04,202 - INFO - ✅ Data saved for BMY at ./data/raw/BMY.parquet.
+2025-03-28 16:54:04,343 - INFO - ✅ Successfully extracted data for F.
+2025-03-28 16:54:04,345 - INFO - ✅ Data saved for F at ./data/raw/F.parquet.
+2025-03-28 16:54:04,509 - INFO - ✅ Successfully extracted data for GM.
+2025-03-28 16:54:04,511 - INFO - ✅ Data saved for GM at ./data/raw/GM.parquet.
+2025-03-28 16:54:04,596 - INFO - ✅ Successfully extracted data for TM.
+2025-03-28 16:54:04,597 - INFO - ✅ Data saved for TM at ./data/raw/TM.parquet.
+2025-03-28 16:54:04,669 - INFO - ✅ Successfully extracted data for RACE.
+2025-03-28 16:54:04,671 - INFO - ✅ Data saved for RACE at ./data/raw/RACE.parquet.
+2025-03-28 16:54:04,806 - INFO - ✅ Successfully extracted data for DIS.
+2025-03-28 16:54:04,807 - INFO - ✅ Data saved for DIS at ./data/raw/DIS.parquet.
+2025-03-28 16:54:04,877 - INFO - ✅ Successfully extracted data for NFLX.
+2025-03-28 16:54:04,880 - INFO - ✅ Data saved for NFLX at ./data/raw/NFLX.parquet.
+2025-03-28 16:54:05,029 - INFO - ✅ Successfully extracted data for WBD.
+2025-03-28 16:54:05,031 - INFO - ✅ Data saved for WBD at ./data/raw/WBD.parquet.
+2025-03-28 16:54:05,151 - INFO - ✅ Successfully extracted data for T.
+2025-03-28 16:54:05,152 - INFO - ✅ Data saved for T at ./data/raw/T.parquet.
+2025-03-28 16:54:05,301 - INFO - ✅ Successfully extracted data for VZ.
+2025-03-28 16:54:05,302 - INFO - ✅ Data saved for VZ at ./data/raw/VZ.parquet.
+2025-03-28 16:54:05,388 - INFO - ✅ Successfully extracted data for TMUS.
+2025-03-28 16:54:05,389 - INFO - ✅ Data saved for TMUS at ./data/raw/TMUS.parquet.
+2025-03-28 16:54:05,389 - INFO - ✅ Downloading the data successfully completed.
+2025-03-28 16:54:05,389 - WARNING - ❌ The following tickers could not be processed: PYP
