@@ -9,9 +9,9 @@ import sys
 from initialize_logfile import initialize_logging
 
 # PARAMETERS FOR YFINANCE
-INTERVAL = "1h"
+INTERVAL = "1wk"
 PERIODE = "730d"
-RELEVANT_COLUMNS = ["Datetime", "Open", "High", "Low", "Close", "Volume"]
+RELEVANT_COLUMNS = ["Date", "Open", "High", "Low", "Close", "Volume"]
 
 YAML_FILE = "./configuration/tickers.yaml"             
 RAW_DATA_DIR = "./data/raw"  
