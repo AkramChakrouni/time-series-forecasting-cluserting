@@ -1,0 +1,355 @@
+2025-03-14 10:46:01,235 - INFO - Logging setup complete.
+2025-03-14 10:46:01,235 - INFO - Script: update_data.py started. Updating raw data files.
+2025-03-14 10:46:01,237 - INFO - ✅ Loaded 50 stocks from ./configuration/tickers.yaml.
+2025-03-14 10:46:01,379 - INFO - AAPL: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:02,179 - INFO - ✅ Successfully fetched data for AAPL.
+2025-03-14 10:46:02,188 - INFO - Updated AAPL: now 5212 rows.
+2025-03-14 10:46:02,194 - INFO - MSFT: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:02,267 - INFO - ✅ Successfully fetched data for MSFT.
+2025-03-14 10:46:02,273 - INFO - Updated MSFT: now 5212 rows.
+2025-03-14 10:46:02,277 - INFO - GOOGL: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:02,377 - INFO - ✅ Successfully fetched data for GOOGL.
+2025-03-14 10:46:02,381 - INFO - Updated GOOGL: now 5212 rows.
+2025-03-14 10:46:02,385 - INFO - AMZN: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:02,505 - INFO - ✅ Successfully fetched data for AMZN.
+2025-03-14 10:46:02,512 - INFO - Updated AMZN: now 5212 rows.
+2025-03-14 10:46:02,516 - INFO - META: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:02,614 - INFO - ✅ Successfully fetched data for META.
+2025-03-14 10:46:02,620 - INFO - Updated META: now 5212 rows.
+2025-03-14 10:46:02,625 - INFO - TSLA: Last date in existing data is 2025-02-20 15:30:00. Fetching new data from 2025-02-20.
+2025-03-14 10:46:02,699 - INFO - ✅ Successfully fetched data for TSLA.
+2025-03-14 10:46:02,704 - INFO - Updated TSLA: now 5212 rows.
+2025-03-14 10:46:02,709 - INFO - NVDA: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:02,797 - INFO - ✅ Successfully fetched data for NVDA.
+2025-03-14 10:46:02,804 - INFO - Updated NVDA: now 5212 rows.
+2025-03-14 10:46:02,808 - INFO - INTC: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:02,895 - INFO - ✅ Successfully fetched data for INTC.
+2025-03-14 10:46:02,901 - INFO - Updated INTC: now 5212 rows.
+2025-03-14 10:46:02,933 - INFO - IBM: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:02,993 - INFO - ✅ Successfully fetched data for IBM.
+2025-03-14 10:46:02,998 - INFO - Updated IBM: now 5212 rows.
+2025-03-14 10:46:03,002 - INFO - ORCL: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:03,070 - INFO - ✅ Successfully fetched data for ORCL.
+2025-03-14 10:46:03,075 - INFO - Updated ORCL: now 5212 rows.
+2025-03-14 10:46:03,078 - INFO - ADBE: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:03,143 - INFO - ✅ Successfully fetched data for ADBE.
+2025-03-14 10:46:03,148 - INFO - Updated ADBE: now 5212 rows.
+2025-03-14 10:46:03,152 - INFO - JPM: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:03,229 - INFO - ✅ Successfully fetched data for JPM.
+2025-03-14 10:46:03,233 - INFO - Updated JPM: now 5212 rows.
+2025-03-14 10:46:03,237 - INFO - BAC: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:03,294 - INFO - ✅ Successfully fetched data for BAC.
+2025-03-14 10:46:03,298 - INFO - Updated BAC: now 5212 rows.
+2025-03-14 10:46:03,302 - INFO - V: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:03,424 - INFO - ✅ Successfully fetched data for V.
+2025-03-14 10:46:03,430 - INFO - Updated V: now 5212 rows.
+2025-03-14 10:46:03,435 - INFO - MA: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:03,539 - INFO - ✅ Successfully fetched data for MA.
+2025-03-14 10:46:03,545 - INFO - Updated MA: now 5212 rows.
+2025-03-14 10:46:03,545 - INFO - ⛔️ No existing data for PYP. Fetching full data from 2023-03-15.
+2025-03-14 10:46:05,836 - ERROR - $PYP: possibly delisted; no price data found  (1h 2023-03-15 -> 2025-03-14 05:46:03-04:00) (Yahoo error = "1h data not available for startTime=1678852800 and endTime=1741945563. The requested range must be within the last 730 days.")
+2025-03-14 10:46:05,837 - WARNING - ⛔️ No new data fetched for PYP starting 2023-03-15.
+2025-03-14 10:46:05,837 - WARNING - ⛔️ No data fetched for PYP.
+2025-03-14 10:46:05,848 - INFO - WFC: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:05,931 - INFO - ✅ Successfully fetched data for WFC.
+2025-03-14 10:46:05,939 - INFO - Updated WFC: now 5211 rows.
+2025-03-14 10:46:05,944 - INFO - GS: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:06,055 - INFO - ✅ Successfully fetched data for GS.
+2025-03-14 10:46:06,060 - INFO - Updated GS: now 5212 rows.
+2025-03-14 10:46:06,065 - INFO - AXP: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:06,144 - INFO - ✅ Successfully fetched data for AXP.
+2025-03-14 10:46:06,150 - INFO - Updated AXP: now 5212 rows.
+2025-03-14 10:46:06,155 - INFO - KO: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:06,222 - INFO - ✅ Successfully fetched data for KO.
+2025-03-14 10:46:06,228 - INFO - Updated KO: now 5212 rows.
+2025-03-14 10:46:06,232 - INFO - PEP: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:06,303 - INFO - ✅ Successfully fetched data for PEP.
+2025-03-14 10:46:06,309 - INFO - Updated PEP: now 5212 rows.
+2025-03-14 10:46:06,313 - INFO - PG: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:06,377 - INFO - ✅ Successfully fetched data for PG.
+2025-03-14 10:46:06,382 - INFO - Updated PG: now 5212 rows.
+2025-03-14 10:46:06,387 - INFO - JNJ: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:06,458 - INFO - ✅ Successfully fetched data for JNJ.
+2025-03-14 10:46:06,464 - INFO - Updated JNJ: now 5212 rows.
+2025-03-14 10:46:06,468 - INFO - UL: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:06,549 - INFO - ✅ Successfully fetched data for UL.
+2025-03-14 10:46:06,555 - INFO - Updated UL: now 5212 rows.
+2025-03-14 10:46:06,559 - INFO - NKE: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:06,690 - INFO - ✅ Successfully fetched data for NKE.
+2025-03-14 10:46:06,696 - INFO - Updated NKE: now 5212 rows.
+2025-03-14 10:46:06,701 - INFO - WMT: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:06,834 - INFO - ✅ Successfully fetched data for WMT.
+2025-03-14 10:46:06,840 - INFO - Updated WMT: now 5212 rows.
+2025-03-14 10:46:06,844 - INFO - COST: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:06,933 - INFO - ✅ Successfully fetched data for COST.
+2025-03-14 10:46:06,939 - INFO - Updated COST: now 5212 rows.
+2025-03-14 10:46:06,944 - INFO - TGT: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,010 - INFO - ✅ Successfully fetched data for TGT.
+2025-03-14 10:46:07,014 - INFO - Updated TGT: now 5212 rows.
+2025-03-14 10:46:07,018 - INFO - MCD: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,089 - INFO - ✅ Successfully fetched data for MCD.
+2025-03-14 10:46:07,095 - INFO - Updated MCD: now 5212 rows.
+2025-03-14 10:46:07,099 - INFO - SBUX: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,166 - INFO - ✅ Successfully fetched data for SBUX.
+2025-03-14 10:46:07,171 - INFO - Updated SBUX: now 5212 rows.
+2025-03-14 10:46:07,175 - INFO - XOM: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,258 - INFO - ✅ Successfully fetched data for XOM.
+2025-03-14 10:46:07,264 - INFO - Updated XOM: now 5212 rows.
+2025-03-14 10:46:07,268 - INFO - CVX: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,334 - INFO - ✅ Successfully fetched data for CVX.
+2025-03-14 10:46:07,340 - INFO - Updated CVX: now 5212 rows.
+2025-03-14 10:46:07,344 - INFO - BP: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,433 - INFO - ✅ Successfully fetched data for BP.
+2025-03-14 10:46:07,438 - INFO - Updated BP: now 5212 rows.
+2025-03-14 10:46:07,443 - INFO - SHEL: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,533 - INFO - ✅ Successfully fetched data for SHEL.
+2025-03-14 10:46:07,540 - INFO - Updated SHEL: now 5212 rows.
+2025-03-14 10:46:07,573 - INFO - COP: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,667 - INFO - ✅ Successfully fetched data for COP.
+2025-03-14 10:46:07,672 - INFO - Updated COP: now 5212 rows.
+2025-03-14 10:46:07,677 - INFO - PFE: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,801 - INFO - ✅ Successfully fetched data for PFE.
+2025-03-14 10:46:07,807 - INFO - Updated PFE: now 5212 rows.
+2025-03-14 10:46:07,812 - INFO - MRNA: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,884 - INFO - ✅ Successfully fetched data for MRNA.
+2025-03-14 10:46:07,890 - INFO - Updated MRNA: now 5212 rows.
+2025-03-14 10:46:07,894 - INFO - LLY: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:07,960 - INFO - ✅ Successfully fetched data for LLY.
+2025-03-14 10:46:07,965 - INFO - Updated LLY: now 5212 rows.
+2025-03-14 10:46:07,970 - INFO - MRK: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,052 - INFO - ✅ Successfully fetched data for MRK.
+2025-03-14 10:46:08,057 - INFO - Updated MRK: now 5212 rows.
+2025-03-14 10:46:08,063 - INFO - BMY: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,121 - INFO - ✅ Successfully fetched data for BMY.
+2025-03-14 10:46:08,126 - INFO - Updated BMY: now 5212 rows.
+2025-03-14 10:46:08,130 - INFO - F: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,192 - INFO - ✅ Successfully fetched data for F.
+2025-03-14 10:46:08,198 - INFO - Updated F: now 5212 rows.
+2025-03-14 10:46:08,202 - INFO - GM: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,264 - INFO - ✅ Successfully fetched data for GM.
+2025-03-14 10:46:08,269 - INFO - Updated GM: now 5212 rows.
+2025-03-14 10:46:08,273 - INFO - TM: Last date in existing data is 2025-02-20 15:30:00. Fetching new data from 2025-02-20.
+2025-03-14 10:46:08,329 - INFO - ✅ Successfully fetched data for TM.
+2025-03-14 10:46:08,334 - INFO - Updated TM: now 5212 rows.
+2025-03-14 10:46:08,338 - INFO - RACE: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,400 - INFO - ✅ Successfully fetched data for RACE.
+2025-03-14 10:46:08,405 - INFO - Updated RACE: now 5212 rows.
+2025-03-14 10:46:08,410 - INFO - DIS: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,472 - INFO - ✅ Successfully fetched data for DIS.
+2025-03-14 10:46:08,477 - INFO - Updated DIS: now 5212 rows.
+2025-03-14 10:46:08,481 - INFO - NFLX: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,539 - INFO - ✅ Successfully fetched data for NFLX.
+2025-03-14 10:46:08,544 - INFO - Updated NFLX: now 5205 rows.
+2025-03-14 10:46:08,549 - INFO - WBD: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,606 - INFO - ✅ Successfully fetched data for WBD.
+2025-03-14 10:46:08,611 - INFO - Updated WBD: now 5107 rows.
+2025-03-14 10:46:08,615 - INFO - T: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,680 - INFO - ✅ Successfully fetched data for T.
+2025-03-14 10:46:08,686 - INFO - Updated T: now 5212 rows.
+2025-03-14 10:46:08,690 - INFO - VZ: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,755 - INFO - ✅ Successfully fetched data for VZ.
+2025-03-14 10:46:08,760 - INFO - Updated VZ: now 5212 rows.
+2025-03-14 10:46:08,765 - INFO - TMUS: Last date in existing data is 2025-02-21 09:30:00. Fetching new data from 2025-02-21.
+2025-03-14 10:46:08,830 - INFO - ✅ Successfully fetched data for TMUS.
+2025-03-14 10:46:08,836 - INFO - Updated TMUS: now 5212 rows.
+2025-03-14 10:46:08,836 - INFO - Logging setup complete.
+2025-03-14 10:46:08,836 - INFO - Script: preprocess_chronos.py started.
+2025-03-14 10:46:08,836 - INFO - Starting data preprocessing.
+2025-03-14 10:46:08,838 - INFO - ✅ The data of SHEL has no missing values.
+2025-03-14 10:46:08,840 - INFO - ✅ Data for SHEL normalized successfully.
+2025-03-14 10:46:08,844 - INFO - ✅ The data of SHEL successfully converted to Chronos format.
+2025-03-14 10:46:08,847 - INFO - ✅ Chronos data saved for SHEL at ./data/chronos/SHEL.parquet.
+2025-03-14 10:46:08,848 - INFO - ✅ The data of TGT has no missing values.
+2025-03-14 10:46:08,850 - INFO - ✅ Data for TGT normalized successfully.
+2025-03-14 10:46:08,853 - INFO - ✅ The data of TGT successfully converted to Chronos format.
+2025-03-14 10:46:08,856 - INFO - ✅ Chronos data saved for TGT at ./data/chronos/TGT.parquet.
+2025-03-14 10:46:08,857 - INFO - ✅ The data of AMZN has no missing values.
+2025-03-14 10:46:08,858 - INFO - ✅ Data for AMZN normalized successfully.
+2025-03-14 10:46:08,861 - INFO - ✅ The data of AMZN successfully converted to Chronos format.
+2025-03-14 10:46:08,864 - INFO - ✅ Chronos data saved for AMZN at ./data/chronos/AMZN.parquet.
+2025-03-14 10:46:08,865 - INFO - ✅ The data of KO has no missing values.
+2025-03-14 10:46:08,866 - INFO - ✅ Data for KO normalized successfully.
+2025-03-14 10:46:08,869 - INFO - ✅ The data of KO successfully converted to Chronos format.
+2025-03-14 10:46:08,871 - INFO - ✅ Chronos data saved for KO at ./data/chronos/KO.parquet.
+2025-03-14 10:46:08,872 - INFO - ✅ The data of BMY has no missing values.
+2025-03-14 10:46:08,873 - INFO - ✅ Data for BMY normalized successfully.
+2025-03-14 10:46:08,876 - INFO - ✅ The data of BMY successfully converted to Chronos format.
+2025-03-14 10:46:08,878 - INFO - ✅ Chronos data saved for BMY at ./data/chronos/BMY.parquet.
+2025-03-14 10:46:08,879 - INFO - ✅ The data of NVDA has no missing values.
+2025-03-14 10:46:08,880 - INFO - ✅ Data for NVDA normalized successfully.
+2025-03-14 10:46:08,882 - INFO - ✅ The data of NVDA successfully converted to Chronos format.
+2025-03-14 10:46:08,885 - INFO - ✅ Chronos data saved for NVDA at ./data/chronos/NVDA.parquet.
+2025-03-14 10:46:08,886 - INFO - ✅ The data of XOM has no missing values.
+2025-03-14 10:46:08,886 - INFO - ✅ Data for XOM normalized successfully.
+2025-03-14 10:46:08,889 - INFO - ✅ The data of XOM successfully converted to Chronos format.
+2025-03-14 10:46:08,891 - INFO - ✅ Chronos data saved for XOM at ./data/chronos/XOM.parquet.
+2025-03-14 10:46:08,892 - INFO - ✅ The data of T has no missing values.
+2025-03-14 10:46:08,893 - INFO - ✅ Data for T normalized successfully.
+2025-03-14 10:46:08,895 - INFO - ✅ The data of T successfully converted to Chronos format.
+2025-03-14 10:46:08,897 - INFO - ✅ Chronos data saved for T at ./data/chronos/T.parquet.
+2025-03-14 10:46:08,898 - INFO - ✅ The data of GM has no missing values.
+2025-03-14 10:46:08,899 - INFO - ✅ Data for GM normalized successfully.
+2025-03-14 10:46:08,901 - INFO - ✅ The data of GM successfully converted to Chronos format.
+2025-03-14 10:46:08,903 - INFO - ✅ Chronos data saved for GM at ./data/chronos/GM.parquet.
+2025-03-14 10:46:08,904 - INFO - ✅ The data of AAPL has no missing values.
+2025-03-14 10:46:08,905 - INFO - ✅ Data for AAPL normalized successfully.
+2025-03-14 10:46:08,907 - INFO - ✅ The data of AAPL successfully converted to Chronos format.
+2025-03-14 10:46:08,909 - INFO - ✅ Chronos data saved for AAPL at ./data/chronos/AAPL.parquet.
+2025-03-14 10:46:08,910 - INFO - ✅ The data of TMUS has no missing values.
+2025-03-14 10:46:08,910 - INFO - ✅ Data for TMUS normalized successfully.
+2025-03-14 10:46:08,913 - INFO - ✅ The data of TMUS successfully converted to Chronos format.
+2025-03-14 10:46:08,915 - INFO - ✅ Chronos data saved for TMUS at ./data/chronos/TMUS.parquet.
+2025-03-14 10:46:08,916 - INFO - ✅ The data of NKE has no missing values.
+2025-03-14 10:46:08,916 - INFO - ✅ Data for NKE normalized successfully.
+2025-03-14 10:46:08,918 - INFO - ✅ The data of NKE successfully converted to Chronos format.
+2025-03-14 10:46:08,921 - INFO - ✅ Chronos data saved for NKE at ./data/chronos/NKE.parquet.
+2025-03-14 10:46:08,922 - INFO - ✅ The data of MRK has no missing values.
+2025-03-14 10:46:08,922 - INFO - ✅ Data for MRK normalized successfully.
+2025-03-14 10:46:08,945 - INFO - ✅ The data of MRK successfully converted to Chronos format.
+2025-03-14 10:46:08,948 - INFO - ✅ Chronos data saved for MRK at ./data/chronos/MRK.parquet.
+2025-03-14 10:46:08,949 - INFO - ✅ The data of META has no missing values.
+2025-03-14 10:46:08,950 - INFO - ✅ Data for META normalized successfully.
+2025-03-14 10:46:08,952 - INFO - ✅ The data of META successfully converted to Chronos format.
+2025-03-14 10:46:08,954 - INFO - ✅ Chronos data saved for META at ./data/chronos/META.parquet.
+2025-03-14 10:46:08,955 - INFO - ✅ The data of JPM has no missing values.
+2025-03-14 10:46:08,956 - INFO - ✅ Data for JPM normalized successfully.
+2025-03-14 10:46:08,958 - INFO - ✅ The data of JPM successfully converted to Chronos format.
+2025-03-14 10:46:08,960 - INFO - ✅ Chronos data saved for JPM at ./data/chronos/JPM.parquet.
+2025-03-14 10:46:08,961 - INFO - ✅ The data of MRNA has no missing values.
+2025-03-14 10:46:08,962 - INFO - ✅ Data for MRNA normalized successfully.
+2025-03-14 10:46:08,964 - INFO - ✅ The data of MRNA successfully converted to Chronos format.
+2025-03-14 10:46:08,966 - INFO - ✅ Chronos data saved for MRNA at ./data/chronos/MRNA.parquet.
+2025-03-14 10:46:08,967 - INFO - ✅ The data of TM has no missing values.
+2025-03-14 10:46:08,967 - INFO - ✅ Data for TM normalized successfully.
+2025-03-14 10:46:08,970 - INFO - ✅ The data of TM successfully converted to Chronos format.
+2025-03-14 10:46:08,972 - INFO - ✅ Chronos data saved for TM at ./data/chronos/TM.parquet.
+2025-03-14 10:46:08,973 - INFO - ✅ The data of RACE has no missing values.
+2025-03-14 10:46:08,973 - INFO - ✅ Data for RACE normalized successfully.
+2025-03-14 10:46:08,975 - INFO - ✅ The data of RACE successfully converted to Chronos format.
+2025-03-14 10:46:08,978 - INFO - ✅ Chronos data saved for RACE at ./data/chronos/RACE.parquet.
+2025-03-14 10:46:08,979 - INFO - ✅ The data of UL has no missing values.
+2025-03-14 10:46:08,979 - INFO - ✅ Data for UL normalized successfully.
+2025-03-14 10:46:08,982 - INFO - ✅ The data of UL successfully converted to Chronos format.
+2025-03-14 10:46:08,984 - INFO - ✅ Chronos data saved for UL at ./data/chronos/UL.parquet.
+2025-03-14 10:46:08,985 - INFO - ✅ The data of PFE has no missing values.
+2025-03-14 10:46:08,985 - INFO - ✅ Data for PFE normalized successfully.
+2025-03-14 10:46:08,987 - INFO - ✅ The data of PFE successfully converted to Chronos format.
+2025-03-14 10:46:08,989 - INFO - ✅ Chronos data saved for PFE at ./data/chronos/PFE.parquet.
+2025-03-14 10:46:08,990 - INFO - ✅ The data of GS has no missing values.
+2025-03-14 10:46:08,991 - INFO - ✅ Data for GS normalized successfully.
+2025-03-14 10:46:08,993 - INFO - ✅ The data of GS successfully converted to Chronos format.
+2025-03-14 10:46:08,996 - INFO - ✅ Chronos data saved for GS at ./data/chronos/GS.parquet.
+2025-03-14 10:46:08,997 - INFO - ✅ The data of MCD has no missing values.
+2025-03-14 10:46:08,997 - INFO - ✅ Data for MCD normalized successfully.
+2025-03-14 10:46:08,999 - INFO - ✅ The data of MCD successfully converted to Chronos format.
+2025-03-14 10:46:09,001 - INFO - ✅ Chronos data saved for MCD at ./data/chronos/MCD.parquet.
+2025-03-14 10:46:09,002 - INFO - ✅ The data of V has no missing values.
+2025-03-14 10:46:09,003 - INFO - ✅ Data for V normalized successfully.
+2025-03-14 10:46:09,005 - INFO - ✅ The data of V successfully converted to Chronos format.
+2025-03-14 10:46:09,007 - INFO - ✅ Chronos data saved for V at ./data/chronos/V.parquet.
+2025-03-14 10:46:09,008 - INFO - ✅ The data of F has no missing values.
+2025-03-14 10:46:09,009 - INFO - ✅ Data for F normalized successfully.
+2025-03-14 10:46:09,011 - INFO - ✅ The data of F successfully converted to Chronos format.
+2025-03-14 10:46:09,013 - INFO - ✅ Chronos data saved for F at ./data/chronos/F.parquet.
+2025-03-14 10:46:09,014 - INFO - ✅ The data of VZ has no missing values.
+2025-03-14 10:46:09,014 - INFO - ✅ Data for VZ normalized successfully.
+2025-03-14 10:46:09,017 - INFO - ✅ The data of VZ successfully converted to Chronos format.
+2025-03-14 10:46:09,019 - INFO - ✅ Chronos data saved for VZ at ./data/chronos/VZ.parquet.
+2025-03-14 10:46:09,019 - INFO - ✅ The data of CVX has no missing values.
+2025-03-14 10:46:09,020 - INFO - ✅ Data for CVX normalized successfully.
+2025-03-14 10:46:09,022 - INFO - ✅ The data of CVX successfully converted to Chronos format.
+2025-03-14 10:46:09,024 - INFO - ✅ Chronos data saved for CVX at ./data/chronos/CVX.parquet.
+2025-03-14 10:46:09,025 - INFO - ✅ The data of GOOGL has no missing values.
+2025-03-14 10:46:09,026 - INFO - ✅ Data for GOOGL normalized successfully.
+2025-03-14 10:46:09,028 - INFO - ✅ The data of GOOGL successfully converted to Chronos format.
+2025-03-14 10:46:09,030 - INFO - ✅ Chronos data saved for GOOGL at ./data/chronos/GOOGL.parquet.
+2025-03-14 10:46:09,031 - INFO - ✅ The data of ADBE has no missing values.
+2025-03-14 10:46:09,032 - INFO - ✅ Data for ADBE normalized successfully.
+2025-03-14 10:46:09,034 - INFO - ✅ The data of ADBE successfully converted to Chronos format.
+2025-03-14 10:46:09,036 - INFO - ✅ Chronos data saved for ADBE at ./data/chronos/ADBE.parquet.
+2025-03-14 10:46:09,037 - INFO - ✅ The data of WFC has no missing values.
+2025-03-14 10:46:09,038 - INFO - ✅ Data for WFC normalized successfully.
+2025-03-14 10:46:09,040 - INFO - ✅ The data of WFC successfully converted to Chronos format.
+2025-03-14 10:46:09,042 - INFO - ✅ Chronos data saved for WFC at ./data/chronos/WFC.parquet.
+2025-03-14 10:46:09,043 - INFO - ✅ The data of NFLX has no missing values.
+2025-03-14 10:46:09,043 - INFO - ✅ Data for NFLX normalized successfully.
+2025-03-14 10:46:09,046 - INFO - ✅ The data of NFLX successfully converted to Chronos format.
+2025-03-14 10:46:09,048 - INFO - ✅ Chronos data saved for NFLX at ./data/chronos/NFLX.parquet.
+2025-03-14 10:46:09,049 - INFO - ✅ The data of MSFT has no missing values.
+2025-03-14 10:46:09,049 - INFO - ✅ Data for MSFT normalized successfully.
+2025-03-14 10:46:09,051 - INFO - ✅ The data of MSFT successfully converted to Chronos format.
+2025-03-14 10:46:09,053 - INFO - ✅ Chronos data saved for MSFT at ./data/chronos/MSFT.parquet.
+2025-03-14 10:46:09,054 - INFO - ✅ The data of DIS has no missing values.
+2025-03-14 10:46:09,055 - INFO - ✅ Data for DIS normalized successfully.
+2025-03-14 10:46:09,057 - INFO - ✅ The data of DIS successfully converted to Chronos format.
+2025-03-14 10:46:09,059 - INFO - ✅ Chronos data saved for DIS at ./data/chronos/DIS.parquet.
+2025-03-14 10:46:09,060 - INFO - ✅ The data of ORCL has no missing values.
+2025-03-14 10:46:09,061 - INFO - ✅ Data for ORCL normalized successfully.
+2025-03-14 10:46:09,063 - INFO - ✅ The data of ORCL successfully converted to Chronos format.
+2025-03-14 10:46:09,065 - INFO - ✅ Chronos data saved for ORCL at ./data/chronos/ORCL.parquet.
+2025-03-14 10:46:09,066 - INFO - ✅ The data of SBUX has no missing values.
+2025-03-14 10:46:09,067 - INFO - ✅ Data for SBUX normalized successfully.
+2025-03-14 10:46:09,069 - INFO - ✅ The data of SBUX successfully converted to Chronos format.
+2025-03-14 10:46:09,071 - INFO - ✅ Chronos data saved for SBUX at ./data/chronos/SBUX.parquet.
+2025-03-14 10:46:09,072 - INFO - ✅ The data of IBM has no missing values.
+2025-03-14 10:46:09,072 - INFO - ✅ Data for IBM normalized successfully.
+2025-03-14 10:46:09,075 - INFO - ✅ The data of IBM successfully converted to Chronos format.
+2025-03-14 10:46:09,077 - INFO - ✅ Chronos data saved for IBM at ./data/chronos/IBM.parquet.
+2025-03-14 10:46:09,078 - INFO - ✅ The data of BAC has no missing values.
+2025-03-14 10:46:09,078 - INFO - ✅ Data for BAC normalized successfully.
+2025-03-14 10:46:09,080 - INFO - ✅ The data of BAC successfully converted to Chronos format.
+2025-03-14 10:46:09,082 - INFO - ✅ Chronos data saved for BAC at ./data/chronos/BAC.parquet.
+2025-03-14 10:46:09,083 - INFO - ✅ The data of PG has no missing values.
+2025-03-14 10:46:09,084 - INFO - ✅ Data for PG normalized successfully.
+2025-03-14 10:46:09,086 - INFO - ✅ The data of PG successfully converted to Chronos format.
+2025-03-14 10:46:09,088 - INFO - ✅ Chronos data saved for PG at ./data/chronos/PG.parquet.
+2025-03-14 10:46:09,089 - INFO - ✅ The data of TSLA has no missing values.
+2025-03-14 10:46:09,090 - INFO - ✅ Data for TSLA normalized successfully.
+2025-03-14 10:46:09,092 - INFO - ✅ The data of TSLA successfully converted to Chronos format.
+2025-03-14 10:46:09,094 - INFO - ✅ Chronos data saved for TSLA at ./data/chronos/TSLA.parquet.
+2025-03-14 10:46:09,095 - INFO - ✅ The data of LLY has no missing values.
+2025-03-14 10:46:09,095 - INFO - ✅ Data for LLY normalized successfully.
+2025-03-14 10:46:09,098 - INFO - ✅ The data of LLY successfully converted to Chronos format.
+2025-03-14 10:46:09,099 - INFO - ✅ Chronos data saved for LLY at ./data/chronos/LLY.parquet.
+2025-03-14 10:46:09,100 - INFO - ✅ The data of WMT has no missing values.
+2025-03-14 10:46:09,101 - INFO - ✅ Data for WMT normalized successfully.
+2025-03-14 10:46:09,125 - INFO - ✅ The data of WMT successfully converted to Chronos format.
+2025-03-14 10:46:09,127 - INFO - ✅ Chronos data saved for WMT at ./data/chronos/WMT.parquet.
+2025-03-14 10:46:09,128 - INFO - ✅ The data of PEP has no missing values.
+2025-03-14 10:46:09,129 - INFO - ✅ Data for PEP normalized successfully.
+2025-03-14 10:46:09,131 - INFO - ✅ The data of PEP successfully converted to Chronos format.
+2025-03-14 10:46:09,133 - INFO - ✅ Chronos data saved for PEP at ./data/chronos/PEP.parquet.
+2025-03-14 10:46:09,134 - INFO - ✅ The data of COST has no missing values.
+2025-03-14 10:46:09,135 - INFO - ✅ Data for COST normalized successfully.
+2025-03-14 10:46:09,137 - INFO - ✅ The data of COST successfully converted to Chronos format.
+2025-03-14 10:46:09,139 - INFO - ✅ Chronos data saved for COST at ./data/chronos/COST.parquet.
+2025-03-14 10:46:09,140 - INFO - ✅ The data of JNJ has no missing values.
+2025-03-14 10:46:09,141 - INFO - ✅ Data for JNJ normalized successfully.
+2025-03-14 10:46:09,143 - INFO - ✅ The data of JNJ successfully converted to Chronos format.
+2025-03-14 10:46:09,145 - INFO - ✅ Chronos data saved for JNJ at ./data/chronos/JNJ.parquet.
+2025-03-14 10:46:09,146 - INFO - ✅ The data of WBD has no missing values.
+2025-03-14 10:46:09,146 - INFO - ✅ Data for WBD normalized successfully.
+2025-03-14 10:46:09,149 - INFO - ✅ The data of WBD successfully converted to Chronos format.
+2025-03-14 10:46:09,150 - INFO - ✅ Chronos data saved for WBD at ./data/chronos/WBD.parquet.
+2025-03-14 10:46:09,151 - INFO - ✅ The data of MA has no missing values.
+2025-03-14 10:46:09,152 - INFO - ✅ Data for MA normalized successfully.
+2025-03-14 10:46:09,154 - INFO - ✅ The data of MA successfully converted to Chronos format.
+2025-03-14 10:46:09,156 - INFO - ✅ Chronos data saved for MA at ./data/chronos/MA.parquet.
+2025-03-14 10:46:09,157 - INFO - ✅ The data of BP has no missing values.
+2025-03-14 10:46:09,158 - INFO - ✅ Data for BP normalized successfully.
+2025-03-14 10:46:09,160 - INFO - ✅ The data of BP successfully converted to Chronos format.
+2025-03-14 10:46:09,162 - INFO - ✅ Chronos data saved for BP at ./data/chronos/BP.parquet.
+2025-03-14 10:46:09,163 - INFO - ✅ The data of COP has no missing values.
+2025-03-14 10:46:09,164 - INFO - ✅ Data for COP normalized successfully.
+2025-03-14 10:46:09,166 - INFO - ✅ The data of COP successfully converted to Chronos format.
+2025-03-14 10:46:09,168 - INFO - ✅ Chronos data saved for COP at ./data/chronos/COP.parquet.
+2025-03-14 10:46:09,169 - INFO - ✅ The data of INTC has no missing values.
+2025-03-14 10:46:09,170 - INFO - ✅ Data for INTC normalized successfully.
+2025-03-14 10:46:09,172 - INFO - ✅ The data of INTC successfully converted to Chronos format.
+2025-03-14 10:46:09,174 - INFO - ✅ Chronos data saved for INTC at ./data/chronos/INTC.parquet.
+2025-03-14 10:46:09,175 - INFO - ✅ The data of AXP has no missing values.
+2025-03-14 10:46:09,175 - INFO - ✅ Data for AXP normalized successfully.
+2025-03-14 10:46:09,178 - INFO - ✅ The data of AXP successfully converted to Chronos format.
+2025-03-14 10:46:09,180 - INFO - ✅ Chronos data saved for AXP at ./data/chronos/AXP.parquet.
+2025-03-14 10:46:09,180 - INFO - ✅ Saving the chronos compatible data successfully completed.
+2025-03-14 10:46:09,180 - INFO - ✅ Data update completed successfully.
